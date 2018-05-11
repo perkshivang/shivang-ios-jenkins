@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+
+def shared_pods
+end
+
+target 'Perk Pop Quiz' do
+    shared_pods
+end
