@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E1775FA9F92730B0F9BA0A /* libPods-JenkinsSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A5410E8A02F189E4481CDC /* libPods-JenkinsSampleTests.a */; };
+		C361C9EA20A9E50800561F84 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = C361C9E920A9E50800561F84 /* ReleaseNotes.txt */; };
 		C390FEA620A5764400E949F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C390FEA520A5764400E949F3 /* AppDelegate.m */; };
 		C390FEA920A5764400E949F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390FEA820A5764400E949F3 /* ViewController.m */; };
 		C390FEAC20A5764400E949F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390FEAA20A5764400E949F3 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		652FD3B6A3B14D2396B2EDA2 /* Pods-JenkinsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsSampleTests/Pods-JenkinsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B7095B9F33C9268BDAC8E9B /* Pods-JenkinsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsSampleUITests/Pods-JenkinsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9B2B5D0BA3486E345EC3C778 /* Pods-JenkinsSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsSampleUITests/Pods-JenkinsSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C361C9E920A9E50800561F84 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		C390FEA120A5764400E949F3 /* JenkinsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C390FEA420A5764400E949F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C390FEA520A5764400E949F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C361C9E820A9E48500561F84 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C361C9E920A9E50800561F84 /* ReleaseNotes.txt */,
+			);
+			path = Notes;
+			sourceTree = SOURCE_ROOT;
+		};
 		C390FE9820A5764400E949F3 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 		C390FEA320A5764400E949F3 /* JenkinsSample */ = {
 			isa = PBXGroup;
 			children = (
+				C361C9E820A9E48500561F84 /* Notes */,
 				C390FEA420A5764400E949F3 /* AppDelegate.h */,
 				C390FEA520A5764400E949F3 /* AppDelegate.m */,
 				C390FEA720A5764400E949F3 /* ViewController.h */,
@@ -279,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C361C9EA20A9E50800561F84 /* ReleaseNotes.txt in Resources */,
 				C390FEB120A5764500E949F3 /* LaunchScreen.storyboard in Resources */,
 				C390FEAE20A5764500E949F3 /* Assets.xcassets in Resources */,
 				C390FEAC20A5764400E949F3 /* Main.storyboard in Resources */,
