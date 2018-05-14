@@ -33,9 +33,13 @@
 		0390354DBF96073384656DE192ECBC92 /* Pods-JenkinsSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		1266E5C1D9737CAF1EB4E8B6B0B3700C /* Pods-JenkinsSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		162078EA727C7CBC251EC30AF055C8E0 /* Pods-JenkinsSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		2FA50EF5B979645E56F233D24822125A /* libPods-JenkinsSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JenkinsSampleTests.a"; path = "libPods-JenkinsSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		536FE81C4D03370D8CBE322CF92147CA /* Pods-JenkinsSampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsSampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59B05C2B1FB130D94187927CFDC7549C /* Pods-JenkinsSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		5FF3184763C35AF169C149F2BE0F5680 /* Pods-JenkinsSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		650BCB9BD67FF821769A90FAA49A134A /* Pods-JenkinsSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsSampleTests-resources.sh"; sourceTree = "<group>"; };
 		67C9ADF02494EEE05D8E7B2E4F368A80 /* Pods-JenkinsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,10 +47,15 @@
 		70E01C18D84D5B8409EFA1E3F17AB7D0 /* Pods-JenkinsSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73B285F00F8D4F48B176CF9CC71C5694 /* Pods-JenkinsSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsSample-resources.sh"; sourceTree = "<group>"; };
 		7C53C32CE68D9D33D7682931E308A607 /* Pods-JenkinsSampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsSampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
 		8E2E69AED1D43D6B98A10D865FF548A1 /* libPods-JenkinsSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JenkinsSample.a"; path = "libPods-JenkinsSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E45D33E85DCE93B8263F1D2485D37C3 /* Pods-JenkinsSampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsSampleUITests-dummy.m"; sourceTree = "<group>"; };
+		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B7BB8E1081F31D285382530742E7B9 /* Pods-JenkinsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
 		A6819012EB31DD704ED3676D6EA642E0 /* Pods-JenkinsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A7943F31E25C1790431D6E3B35C72017 /* libPods-JenkinsSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JenkinsSampleUITests.a"; path = "libPods-JenkinsSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FBECB9952368FA8FFEB8926D4D0A6C /* Pods-JenkinsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +63,8 @@
 		CE2C21EA3EFE82DC6FDF40688AD10579 /* Pods-JenkinsSampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsSampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D62B43EFF94E8A90E68B794FFB2C75D6 /* Pods-JenkinsSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DACF0036188A8E0EE891E045409D2BCD /* Pods-JenkinsSampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JenkinsSampleUITests-resources.sh"; sourceTree = "<group>"; };
+		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		F0E420A71783B8D93CB740D807A7FC01 /* Pods-JenkinsSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsSample-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +100,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1DECF7299F0875E9BCB9492390207331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */,
+				D479A0301687E2A8F6F67D392B8551D2 /* Fabric */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */,
+				A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */,
+				8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */,
+				29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */,
+				856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */,
+				DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */,
+				200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */,
+				E268B07786115FF5D5DFF396150E695F /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		2DDA681774534EB985F60A3418A4C908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		51E0AC5F9A608FC053B57E8EBF6D44A2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +148,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				1DECF7299F0875E9BCB9492390207331 /* Pods */,
 				DBF8BC227F6EFFFF11363E0502E699B0 /* Products */,
 				51E0AC5F9A608FC053B57E8EBF6D44A2 /* Targets Support Files */,
 			);
@@ -139,6 +184,17 @@
 			path = "Target Support Files/Pods-JenkinsSampleTests";
 			sourceTree = "<group>";
 		};
+		D479A0301687E2A8F6F67D392B8551D2 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */,
+				82981FB005A4ED4C556297735FD4ACED /* Fabric.h */,
+				2DDA681774534EB985F60A3418A4C908 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
 		DBF8BC227F6EFFFF11363E0502E699B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +203,14 @@
 				A7943F31E25C1790431D6E3B35C72017 /* libPods-JenkinsSampleUITests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E268B07786115FF5D5DFF396150E695F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E8BDCCF464A46D024245CBB05FE05E33 /* Pods-JenkinsSampleUITests */ = {

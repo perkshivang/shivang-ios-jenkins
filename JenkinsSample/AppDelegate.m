@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -14,9 +16,27 @@
 
 @implementation AppDelegate
 
+- (void)applicationDidFinishLaunching:(UIApplication *)application{
+    NSLog(@"fabric logs start");
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//        [Fabric with:@[[Crashlytics class]]];
+    
+    [[Crashlytics sharedInstance] setDebugMode:YES];
+    [Fabric with:@[[Crashlytics class]]];
+
+
+}
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//
+//    [[Crashlytics sharedInstance] setDebugMode:YES];
+//    [Fabric with:@[[Crashlytics class]]];
+//    NSLog(@"fabric logs end");
+//
+//    // Override point for customization after application launch.
+//    return YES;
+//}
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+     NSLog(@"fabric logs start");
     return YES;
 }
 
@@ -40,7 +60,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
 }
+
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
