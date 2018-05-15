@@ -17,7 +17,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application{
-   // NSLog(@"fabric logs start");
+    NSLog(@"fabric logs start");
 
 //        [Fabric with:@[[Crashlytics class]]];
     
